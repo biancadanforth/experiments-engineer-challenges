@@ -14,3 +14,12 @@ Using the assets suggested below in the “Assets” section, implement a [`Brow
 ### Icon 
 
 - Use the [“Audio 16” icon](https://design.firefox.com/icons/viewer/#audio) from Firefox’s design guide for the browserAction icon.
+
+## Engineering questions
+
+- Why do we want to focus the noisy tab rather than mute it?
+- What if multiple tabs are noisy when the button is clicked?
+- What if the noisy tab is in a different window?
+- What if there are no noisy tabs when the button is clicked?
+  - Should we disable the browserAction button? Change its title?
+- What do we put in the about:addons page for the icon and description of the add-on?

@@ -2,9 +2,11 @@
 
 ## Once
 
-1. Install a Firefox.
+1. Install Firefox.
 
 2. `npm install -g web-ext`
+
+After you have cloned the repo and switched to the repo directory on the command line:
 
 ## Once per testing session
 
@@ -18,15 +20,15 @@ web-ext run
 ### 1.  A noisy tab will steal focus from a non-noisy tab
 
 #### setup
-- Open tab:  `youtube.com`
-- Open new tab.
+- Open tab:  `youtube.com` and start a video playing.
+- Leaving the `youtube.com` tab open, open a second, new tab.
 
 #### action
-- click Focus Tab Button
+- click Focus Noisy Tab Button
 
 #### expect
-- the `youtube` tab steals focus.
+- The `youtube` tab steals focus.
 
-### 2.  ...
+### 2.  See questions in SPEC.md for additional behaviors/edge cases questions; once the PM makes the call, enumerate them here.
 
 
